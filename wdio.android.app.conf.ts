@@ -28,7 +28,7 @@ config.capabilities = [
         // The path to the app
         'appium:app': join(process.cwd(), './apps/*.apk'), //enter specific app name in place of *
         // @ts-ignore
-        'appium:appWaitActivity': 'com.joinforma.app.MainActivity',
+        'appium:appWaitActivity': 'com.randomApp.app.MainActivity', //this is just a sample app activity name, confirm the real one for your app
         'appium:newCommandTimeout': 240,
     },
 ];
