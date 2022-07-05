@@ -26,7 +26,7 @@ config.capabilities = [
         'appium:orientation': 'PORTRAIT',
         'appium:automationName': 'UiAutomator2',
         // The path to the app
-        'appium:app': join(process.cwd(), './apps/forma_beta-1205-22-01.apk'),
+        'appium:app': join(process.cwd(), './apps/*.apk'), //enter specific app name in place of *
         // @ts-ignore
         'appium:appWaitActivity': 'com.joinforma.app.MainActivity',
         'appium:newCommandTimeout': 240,
